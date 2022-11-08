@@ -40,11 +40,8 @@ with st.container():
     st.write("---")
     st.header("My Web Apps")
     st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    
-    with text_column:
-        st.subheader("Diabetes Predictor")
-        st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
+    st.subheader("Diabetes Predictor")
+    st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
 
 # ---- CONTACT ----
 with st.container():
