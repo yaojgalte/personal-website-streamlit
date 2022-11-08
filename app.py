@@ -23,7 +23,6 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
-img_diabetes = Image.open("images/f_doctor.png")
 
 # ---- HEADER SECTION ----
 with st.container():
