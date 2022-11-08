@@ -20,7 +20,6 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-
 local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
@@ -41,9 +40,7 @@ with st.container():
     st.write("---")
     st.header("My Web Apps")
     st.write("##")
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_diabetes)
+    
     with text_column:
         st.subheader("Diabetes Predictor")
         st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
