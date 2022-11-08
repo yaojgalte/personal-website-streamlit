@@ -26,7 +26,7 @@ local_css("style/style.css")
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/yt_contact_form.png")
-img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+img_diabetes = Image.open("images/f_doctor.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -66,7 +66,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(img_lottie_animation)
+        st.image(img_diabetes)
     with text_column:
         st.subheader("Diabetes Predictor App")
 
