@@ -52,6 +52,6 @@ with st.container():
     st.header("Get In Touch With Me!")
     st.write("##")
 
-    st.markdown('<a href="yao.jiang@ntnu.no">Contact me !</a>', unsafe_allow_html=True)
+    st.sidebar.markdown('<a href="yao.jiang@ntnu.no">Contact me !</a>', unsafe_allow_html=True)
 
 
