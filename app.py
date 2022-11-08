@@ -64,11 +64,20 @@ with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
-
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_lottie_animation)
     with text_column:
         st.subheader("Diabetes Predictor App")
+        st.write(
+            """
+            Learn how to use Lottie Files in Streamlit!
+            Animations make our web app more engaging and fun, and Lottie Files are the easiest way to do it!
+            In this tutorial, I'll show you exactly how to do it
+            """
+        )
         st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
-'''with st.container():
+with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_contact_form)
@@ -80,7 +89,7 @@ with st.container():
             In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")'''
+        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
 
 # ---- CONTACT ----
 with st.container():
