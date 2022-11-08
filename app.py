@@ -71,19 +71,7 @@ with st.container():
         st.subheader("Diabetes Predictor App")
 
         st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
-'''with st.container():
-    image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_contact_form)
-    with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
-        st.write(
-            """
-            Want to add a contact form to your Streamlit website?
-            In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
-            """
-        )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")'''
+
 
 # ---- CONTACT ----
 with st.container():
