@@ -49,7 +49,7 @@ with st.container():
 # ---- CONTACT ----
 with st.container():
     st.write("---")
-    st.header('<a href="yao.jiang@ntnu.no">Contact me !</a>', unsafe_allow_html=True)
+    st.header("Get In Touch With Me!")
     st.write("##")
 
     st.markdown('<a href="yao.jiang@ntnu.no">Contact me !</a>', unsafe_allow_html=True)
