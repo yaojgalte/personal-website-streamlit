@@ -44,7 +44,7 @@ with st.container():
     with image_column:
         st.subheader("Diabetes Predictor")
     with text_column:
-        st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
+        st.subheader("[Let's Play!](https://diabetes-predictor.streamlit.app)")
 
 # ---- CONTACT ----
 with st.container():
