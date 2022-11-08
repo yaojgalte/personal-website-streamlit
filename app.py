@@ -40,6 +40,7 @@ with st.container():
     st.write("---")
     st.header("My Web Apps")
     st.write("##")
+    image_column, text_column = st.columns((1, 2))
     
     with text_column:
         st.subheader("Diabetes Predictor")
