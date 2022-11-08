@@ -52,6 +52,8 @@ with st.container():
     st.header("Get In Touch With Me!")
     st.write("##")
 
+    st.sidebar.markdown('<a href="mailto:hello@streamlit.io">Contact us !</a>', unsafe_allow_html=True)
+
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
     <form action="https://formsubmit.co/yao.jiang@ntnu.no" method="POST">
