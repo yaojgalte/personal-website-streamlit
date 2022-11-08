@@ -31,26 +31,24 @@ img_diabetes = Image.open("images/f_doctor.png")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Yao :wave:")
-    st.title("A Postdoc From Norway")
+    st.title("A Postdoc at NTNU")
     st.write(
         "I like programming and solving technical problems, my goal for the future is to become a proficient programmer."
         " I like to write neat and efficient code, and to design and develop tools for meaningful applications."
     )
-    st.write("[Learn More >](https://github.com/yaoj90?tab=repositories)")
+    st.write("[My Github >](https://github.com/yaoj90?tab=repositories)")
 
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
-    st.header("My Projects")
+    st.header("My Web Apps")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.image(img_diabetes)
     with text_column:
-        st.subheader("Diabetes Predictor App")
-
+        st.subheader("Diabetes Predictor")
         st.markdown("[Let's Play!](https://diabetes-predictor.streamlit.app)")
-
 
 # ---- CONTACT ----
 with st.container():
@@ -60,7 +58,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+    <form action="https://formsubmit.co/yao.jiang@ntnu.no" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
