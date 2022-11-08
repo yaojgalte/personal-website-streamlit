@@ -24,8 +24,6 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/yt_contact_form.png")
 img_diabetes = Image.open("images/f_doctor.png")
 
 # ---- HEADER SECTION ----
