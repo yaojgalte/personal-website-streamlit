@@ -54,6 +54,7 @@ watchdog==2.1.8
 If you have any feedback, please reach out to me at contact@pythonandvba.com
 ![Logo](https://www.pythonandvba.com/banner-img)
 
+
 ## Addendum
 [@pythoninthegrass](https://github.com/pythoninthegrass) additions
 * Setup [Poetry](https://python-poetry.org/docs/#installation), [reverted protobuf](https://discuss.streamlit.io/t/typeerror-descriptors-cannot-not-be-created-directly/25639/11)
