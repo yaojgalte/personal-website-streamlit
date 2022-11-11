@@ -41,8 +41,12 @@ with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
         st.subheader("Diabetes Predictor")
+
+        st.subheader("Reusable Todo list app")
     with text_column:
         st.subheader("[Let's Play!](https://diabetes-predictor.streamlit.app)")
+
+        st.subheader("[Let's Play!](https://reusable-todo.streamlit.app)")
 
 # ---- CONTACT ----
 with st.container():
